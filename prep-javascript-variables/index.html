@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Variables</title>
+</head>
+<body>
+  <p id="demo"></p>
+
+  <script>
+    var fullname = ' Value of fullname: Amir Alamin';
+    document.getElementById('demo').innerHTML = fullname;
+    console.log(fullname);
+
+    const x = ' Value of numberofpets: ';
+    const y = '1';
+    const z = x + y;
+    document.getElementById('demo').innerHTML = fullname;
+    console.log(z);
+
+    var likesvegetables = ' Value of likesvegetables: Boolean(x) ';
+    Boolean(x);
+    document.getElementById('demo').innerHTML = 'likevegetables ' + Boolean(100) + '<br>';
+    console.log(likesvegetables);
+
+    var never;
+    document.getElementById('demo').innerHTML =
+        never + '<br>' + typeof never;
+    document.getElementById('demo').innerHTML = never;
+    console.log(never);
+
+    var nothing = ' value of nothing: null';
+    document.getElementById('demo').innerHTML = nothing;
+    console.log(nothing);
+  </script>
+</body>
+</html>
